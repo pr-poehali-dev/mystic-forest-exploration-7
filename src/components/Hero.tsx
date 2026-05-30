@@ -19,19 +19,22 @@ export default function Hero() {
         className="absolute inset-0 w-full h-full"
       >
         <img
-          src="/images/mountain-landscape.jpg"
-          alt="Mountain landscape"
+          src="https://cdn.poehali.dev/projects/fd49ce86-e4b7-4598-baca-4f0cc0f9a6d1/bucket/8e8b4d8c-3781-4364-aec3-427be8173523.jpg"
+          alt="3D визуализация парковки"
           className="w-full h-full object-cover"
         />
       </motion.div>
 
-      <div className="relative z-10 text-center text-white">
-        <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold tracking-tight mb-6">
-          ОТКРОЙ
-        </h1>
-        <p className="text-lg md:text-xl max-w-2xl mx-auto px-6 opacity-90">
-          Исследуй границы дизайна с иммерсивным параллакс-эффектом
+      <div className="relative z-10 text-center text-white px-6" style={{ textShadow: "0 2px 24px rgba(0,0,0,0.7)" }}>
+        <p className="text-sm md:text-base uppercase tracking-widest mb-4 opacity-80">
+          Портфолио работ
         </p>
+        <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold tracking-tight mb-4 leading-tight">
+          3D Визуализатора
+        </h1>
+        <h2 className="text-3xl md:text-5xl lg:text-6xl font-light tracking-wide">
+          Сорокиной А.С.
+        </h2>
       </div>
     </div>
   );
